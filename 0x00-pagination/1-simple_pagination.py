@@ -1,6 +1,5 @@
-
 #!/usr/bin/env python3
-""" Simple pagination
+""" 1. Simple pagination
 """
 
 import csv
@@ -45,4 +44,3 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """ Returns a tuple containing a start and end index.
     """
     return ((page - 1) * page_size, page * page_size)
-
